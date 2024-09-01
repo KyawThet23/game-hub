@@ -10,7 +10,7 @@ const CriticScore = ({score}:Props) => {
 
   return (
     <div>
-      <Badge background={color} fontSize='14px' paddingX={2} borderRadius='4px' >{score}</Badge>
+      <Badge color='black' background={color} fontSize='14px' paddingX={2} borderRadius='4px' >{score}</Badge>
     </div>
   )
 }
